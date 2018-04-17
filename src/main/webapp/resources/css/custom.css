@@ -1,0 +1,62 @@
+/* BASE */
+body {
+	margin: 0;
+	font-size: 13px;
+	font-family: "Verdana", Helvetica;
+}
+
+/* TABVIEW */
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+	color: #555;
+}
+
+@media (max-width: 640px) {
+	.ui-tabs.ui-tabs-top > .ui-tabs-nav li {
+		width: 100%;
+	}
+}
+
+/* PANELGRID */
+.ui-panelgrid.panelgrid-noborder .ui-grid-responsive {
+	border: none;
+}
+
+@media (max-width: 640px) {
+	.ui-panelgrid.panelgrid-noborder .ui-grid-responsive .ui-grid-row {
+		border: none;
+	}
+}
+
+.botao-laranja{
+	background-color: #ff6600 !important;
+}
+
+@media (min-width: 900px){
+	.acessoNegado{
+		margin-left:30%; 
+	}
+}
+
+.ui-messages-info, .ui-message-info{
+	background-color: #caeaca !important;
+	border-color: #caeaca !important;
+	color: #009fad !important;
+}
+
+.ui-datatable table table{
+	border: hidden;
+}
+
+.ui-datatable table table td{
+	border: hidden;
+}
+
+fieldset{
+	border-radius: 8px !important;
+}
+
+@media(min-width: 900px){
+	.alinhamentoColunas{
+		text-align:center;
+	}
+}

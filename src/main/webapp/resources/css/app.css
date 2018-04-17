@@ -1,0 +1,62 @@
+body {
+	font-family: "Verdana", Helvetica;
+}
+
+.box {
+	background-color: #1e94d2;
+	color: #fff;
+	
+	padding: 30px 15px;
+	/*margin: 10px;*/
+}
+
+.box > h2 {
+	font-size: 14px;
+	font-weight: normal;
+	
+	padding: 0;
+	margin: 0;
+}
+
+.box > span {
+	font-size: 40px;
+	font-weight: 400;
+}
+
+.ui-commandlink{
+	color: #005746 !important;
+	font-weight: bold !important;
+}
+
+.ui-button{
+	background: #009fad !important;
+	border: 1px;
+	
+}
+
+.ui-button .ui-button-text{
+	color: white !important;
+	border-color: black !important;
+}
+
+.ui-panel-title{
+	font-size: 18px !important;
+}
+
+label{
+	font-weight: bold;
+}
+/*
+@media (min-width: 640px) {
+	.box {
+		float: left;
+		width: calc(50% - 50px);
+	}
+}
+
+@media (min-width: 960px) {
+	.box {
+		width: calc(33.33% - 50px);
+	}
+}
+*/
